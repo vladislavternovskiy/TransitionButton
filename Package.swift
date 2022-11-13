@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "TransitionButton",
     platforms: [
-        .iOS(.v8)
+        .macOS(.v11), .iOS(.v12), .tvOS(.v13)
     ],
     products: [
         .library(
